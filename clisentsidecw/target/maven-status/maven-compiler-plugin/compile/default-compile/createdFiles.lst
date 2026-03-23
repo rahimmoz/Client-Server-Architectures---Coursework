@@ -1,0 +1,5 @@
+smartcampus\SmartCampusApp.class
+smartcampus\Clisentsidecw.class
+smartcampus\repository\DataStorage.class
+smartcampus\resource\DiscoveryResource.class
+smartcampus\model\Room.class
