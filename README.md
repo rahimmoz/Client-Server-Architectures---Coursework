@@ -18,6 +18,8 @@ All data is stored in-memory using ConcurrentHashMap and ArrayList data structur
 - Maven (build tool)
 
 ## Project Structure
+This is the basic file structure used for this project
+```bash
 src/main/java/smartcampus/
 ├── Main.java                          — starts the Grizzly server
 ├── SmartCampusApp.java                — JAX-RS application configuration
@@ -41,9 +43,9 @@ src/main/java/smartcampus/
     ├── RoomNotEmptyExceptionMapper.java
     ├── SensorUnavailableExceptionMapper.java
     └── LoggingFilter.java
+```
 
 ## How to Build and Run
-
 ### Prerequisites
 - Java 17 or higher
 - Maven 3.8 or higher
