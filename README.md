@@ -1,5 +1,4 @@
 # Client-Server-Architectures---Coursework
-REST API design, development and implementation.
 
 # Smart Campus Sensor & Room Management API
 A RESTful API built with JAX-RS (Jersey) and Java for managing university campus rooms and IoT sensors. Built as part of the 5COSC022W Client-Server Architectures module at the University of Westminster.
@@ -19,7 +18,6 @@ All data is stored in-memory using ConcurrentHashMap and ArrayList data structur
 - Maven (build tool)
 
 ## Project Structure
-
 src/main/java/smartcampus/
 ├── Main.java                          — starts the Grizzly server
 ├── SmartCampusApp.java                — JAX-RS application configuration
@@ -38,7 +36,10 @@ src/main/java/smartcampus/
     ├── RoomNotEmptyException.java
     ├── LinkedResourceNotFoundException.java
     ├── SensorUnavailableException.java
-    ├── ExceptionMappers.java          — all four exception mappers
+    ├── GlobalExceptionMapper.java
+    ├── LinkedResourceNotFoundMapper.java
+    ├── RoomNotEmptyExceptionMapper.java
+    ├── SensorUnavailableExceptionMapper.java
     └── LoggingFilter.java
 
 ## How to Build and Run
